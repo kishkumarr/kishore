@@ -1,0 +1,38 @@
+x to delete
+u to undo last command
+crl R redo
+A append text at end
+:wq to save
+:q! trash all changes
+dW move to beginning of the word n del word
+2w move 2 words frwd
+3e move 3 words frwd
+0 move to start of line
+d2W delete 2 words 
+dd delete entire 1 line
+p puts bck deleted text 
+r replace the letter
+ce change end of word
+   delete word and insert mode
+G move to bottom of file
+gg move to start of the file
+% find matching }]or)
+:s/old/new/g substitute new to old and where g is globally
+/ bckward search n find nxt occuerance and N opp direction 
+? frwd search
+:! shell commands like :!dir,:lls
+:w test .save file
+v start visual mode and perform opertion like d delete
+:r filename will insert content
+R replace character
+y copy p for paste
+yw copy 1 word
+o open line below and start insert mode
+O opens line above
+a insert text after cursor
+A after end of line
+Y operator copies and p pastes 
+R enter replace mode
+ctrl w jump window to another
+type :e and press ctrl+D command name starts with :e and press tab to complete command  	
+
