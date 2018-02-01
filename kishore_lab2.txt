@@ -1,0 +1,106 @@
+commands
+1 who
+
+description 
+-a --all
+	same as -b -d --login -p -r -t -T -u
+-b --boot
+	time of last sys boot
+-d --dead
+	print dead process
+-H --heading
+	column headings
+--ips print ips instead of hostnames with --lookup
+-l --login
+--lookup
+	canonucalize via DNS
+-m
+	only hostname n stdin
+-p --process
+	spawned by init
+-q --count
+	users ogged on
+-r --runlevel
+	current runlevel
+-s --short
+	name line time(default)
+-T,-w,--mesg
+	+ - ?
+-u --users
+	logged in
+-- message 
+	-T
+--writable 
+	-T
+--help
+	for help n exit
+--version
+	info n exit
+
+2 ls
+
+description
+- a -all 
+	starting with .
+-A --almost-all
+--author
+	with -l
+-b --escape
+-l use a listing format
+
+3 cal
+
+description
+
+-h turns off
+-j with -o option
+-e display date or easter
+-o datr or orthodox
+
+4 bc
+
+description
+
+-h,help
+-i --interactive
+-l --mathlib
+-s --standard
+	POSIX bc language
+-q --quiet
+	GNU bc welcome
+
+5 date
+
+description
+
+-j displays Julian days
+-m month
+-o ORthodox
+
+6 time
+
+description
+
+-o --output=file 
+-a --append
+--help 
+	option n exit
+
+7 uname
+
+description
+
+-n --nodename 
+	node hostname
+-s 
+	kernel name
+-m 
+	machine hardware name
+--help
+	help n exit
+
+
+
+
+
+
