@@ -1,0 +1,73 @@
+cp copy files and directories
+
+-a --archive
+	same as dR --preserve
+--attributes-only
+	dont copy files
+--backup
+	make a backup
+-d 
+	same as --no-dereference --preserve
+-f --force	
+	if an existing destination file cannot open 		remove it and try again
+
+
+rm remove files or directories
+
+-i prompt before every removal
+
+-d --dir
+	remove empty directories
+--help 
+	display this help and exit
+-v --verbose
+	explain wht is being done
+
+
+mv move(rename)files
+
+-i --interactive 
+	prompt before overwrite
+-n --no-clobber
+	do not overwrite a file
+-u --update
+	move source file than destination file
+-Z --context
+	set security context
+
+
+cmp compare 2 files
+
+-b --print-bytes
+	print differing bytes
+-i --ignore-initial
+	skip 1st skip bytes of both i/o
+-n --bytes
+	compare at most LIMIT bytes
+-s --quiet
+	suppress all normal output
+
+
+diff compare files line by line
+
+-q --brief
+	report only when files differ
+--normal 
+	output a normal diff
+-e --ed
+	output an ed script
+-n --rcs
+	output an RCS format diff
+
+
+comm compare 2 sorted files line by line
+
+-1 suppress column 1 (lines unique to file1)
+
+-2 suppress column 2 (lines unique to file2)
+
+-3 suppress column 3 (lines that appear in both 		      files)
+--total
+	output a summary
+
+	
