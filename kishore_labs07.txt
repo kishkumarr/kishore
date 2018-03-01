@@ -1,0 +1,25 @@
+
+File Related Commands
+
+1. cp Command:-It is used to copy the information(data) from the soure file to the destination file
+ Syntax: cp sourcefile destinationfile.
+ cp [OPTION]... [-T] SOURCE DEST
+ or:  cp [OPTION]... SOURCE... DIRECTORY
+ or:  cp [OPTION]... -t DIRECTORY SOURCE...
+ 
+2. rm file_name:- It is used to remove a file permanantly.
+
+3. mv Command:- It is used to move the information(data) from the soure file to the destination file.
+ Syntax: mv sourcefile destinationfile.
+
+4. cmp Command:- This command compares the two files and and shows how the files differ in bytes and lines
+ syntax: cmp file1 file2
+ file1 file2 differ: byte 1, line 1
+
+5. diff Command:-This command compares the two files and and shows how the files differ the lines which are different is displayed
+ syntax: cmp file1 file2
+
+6. comm Command:-This command displays the lines which are common in both the files.
+ syntax: cmp file1 file2
+
+
