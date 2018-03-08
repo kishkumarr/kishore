@@ -1,0 +1,39 @@
+* Use of sed command with different option
+
+1.$ sed -n '1,2p' emp.lst
+
+Emp_id|Name|Designation|Salary|Phone_number
+
+2.$ sed -n '$p' emp.lst
+
+
+
+3.$ sed -n -e '1,3p' -e '5,6p' -e '9,10p' emp.lst
+
+Emp_id|Name|Designation|Salary|Phone_number
+
+4.$ sed -n '/Manager/p' emp.lst
+
+5.$ sed -n '1,2!p' emp.lst
+
+
+6.$ sed 's/|/:/g' emp.lst
+
+Emp_id:Name:Designation:Salary:Phone_number
+
+
+Excersice 5
+
+1.Display the details of the employee whose designation is manager/Manager.
+
+$ sed -n '/[mM]anager/p' emp.lst
+
+
+
+2.Display the employee details whose name is john|johnny
+
+
+
+
+
+
