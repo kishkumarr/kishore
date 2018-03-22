@@ -104,3 +104,34 @@ Output:
 6 deepak clerk sales 23000
 
 
+QUESTIONS.
+
+1)Delete blank space using awk
+  awk -F "|" '!(/ /)' awk2.lst
+
+kish                       
+kishfirstlab
+unix
+kishsecondlab
+kish3rdlab
+
+2)Print only the odd lines of a file
+   awk NR%2==1 awk2.lst
+kish
+unix
+kish 3rd lab
+
+3)Print last line using awk
+  awk -F "|" 'END{print}' awk2.lst 
+  kish 3rd lab
+
+Write equavilant command for these commands
+   4)head -n 5 awk2
+    awk -F 'NR==1, NR==5{print}' awk2.lst
+
+   5)sed -n '5,10p' awk2 
+    awk -F "|" 'NR==5,NR==10 {print}' awk2.lst
+  
+   6)$ tail +7 awk2.lst
+    awk -F "|" 'NR==7,NR==$NF{print $0}' awk2.lst
+
