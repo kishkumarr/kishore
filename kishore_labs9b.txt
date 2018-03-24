@@ -1,0 +1,30 @@
+
+1. From first 5 lines of the file replace  manager with directory
+
+Change the extension of the file from lst to txt format and perform the following sed command
+
+$ sed '1,5 s/Manager/Director/' emp.txt
+Id:Name:Designation:Salary:Phone_number
+
+
+2.Display the details of 1st and 2nd employee
+
+$ sed -n '2,3p' emp.lst
+
+
+3.salary which starts with 2?
+->sed -d -f 5 "^2" empl.
+
+4.Display the details of the employee whose designation is manager/Manager.
+
+$ sed -n '/[mM]anager/p' emp.lst
+
+
+
+5.Develope a search engine to search for a word or a phrase in all or any file on your computer
+
+echo "enter the pattern to be searched"
+read n
+grep -r1 "$n" "/home"
+
+
