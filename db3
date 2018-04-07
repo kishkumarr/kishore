@@ -9,7 +9,7 @@ echo "The details of logged-in users :\n$details"
 
 OUTPUT
 
-The total numver of users logged in : cs2016a121
+The total numver of users logged in : cs2016a113
 # users=1
 The details of logged-in users :
 NAME     LINE         TIME             COMMENT
